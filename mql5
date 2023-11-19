@@ -1,0 +1,89 @@
+mql5
+//+------------------------------------------------------------------+
+//|            Terms of Reference for EA Golden Moon                  |
+//|            Developer's Site: forexroboteasy.com                   |
+//|            Development: Forex Robot Easy Team                     |
+//+------------------------------------------------------------------+
+
+// Expert Advisor parameters
+input string TradingPairs = 'USDCAD, EURCHF, EURUSD, USDCHF, EURAUD, AUDUSD, GBPUSD'; // Trading pairs to be used
+input ENUM_TIMEFRAMES Timeframe = PERIOD_M30; // Timeframe for trading
+
+//+------------------------------------------------------------------+
+//|                       Expert Advisor                              |
+//+------------------------------------------------------------------+
+expert Advisor 'EA Golden Moon'
+{
+   // Zone Breakout Strategy
+   // Function to identify zones of volume accumulation
+   void IdentifyVolumeZones()
+   {
+      // Implementation of advanced algorithm to identify zones
+      // Code goes here...
+   }
+   
+   // Function to incorporate trend determination
+   void DetermineTrend()
+   {
+      // Trend determination algorithm
+      // Code goes here...
+   }
+   
+   // Function to determine entry point based on price direction in the future
+   void EntryPointFilter()
+   {
+      // Built-in indicator for entry point filter
+      // Code goes here...
+   }
+   
+   // Function to enter trades when price breaks out of accumulation zones
+   void BreakoutTrading()
+   {
+      // Code for breakout trading
+      // Code goes here...
+   }
+   
+   // Function to test compatibility with trading pairs and confirm favorable conditions
+   void CompatibilityTesting()
+   {
+      // Compatibility testing for trading pairs
+      // Code goes here...
+   }
+   
+   // Function to optimize code performance for efficient execution
+   void OptimizePerformance()
+   {
+      // Performance optimization code
+      // Code goes here...
+   }
+   
+   // Expert Advisor initialization
+   void OnInit()
+   {
+      // Initialization code
+      // Code goes here...
+   }
+   
+   // Expert Advisor deinitialization
+   void OnDeinit(const int reason)
+   {
+      // Deinitialization code
+      // Code goes here...
+   }
+   
+   // Expert Advisor start
+   void OnTick()
+   {
+      // Main trading logic
+      IdentifyVolumeZones();
+      DetermineTrend();
+      EntryPointFilter();
+      BreakoutTrading();
+      CompatibilityTesting();
+      OptimizePerformance();
+   }
+}
+
+//+------------------------------------------------------------------+
+//|                       End of Code                                 |
+//+------------------------------------------------------------------+
